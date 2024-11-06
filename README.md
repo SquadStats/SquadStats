@@ -1,7 +1,7 @@
 # SquadStats
 The SquadStats plugin to connect to our API
 
-[![Version](https://img.shields.io/badge/Version-v1.0.0-green)](https://github.com/SquadStats/SquadStats/)
+[![Version](https://img.shields.io/badge/Version-v0.0.2-green)](https://github.com/SquadStats/SquadStats/)
 
 ### About
 
@@ -16,3 +16,8 @@ This can help keep individual community data isolated for more specific clan-foc
 - [Medals](https://squadstats.nl/showcase/medals/)
 - Weaponstats
 - Serverstatus
+
+### Links
+- Website: https://squadstats.nl
+- Status: https://status.squadstats.nl
+- Discord: https://squadstats.nl/discord
