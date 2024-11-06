@@ -1,0 +1,13 @@
+// All Rights Reserved               | Copyright by SquadStats.nl   
+// Github: github.com/SquadStats/    | Discord: SquadStats.nl/discord 
+
+
+// --> Please add de configuration below (line 8-13) to you SquadJS config File.
+// --> You can get an API key on our Discord (SquadStats.nl/discord)
+
+    {
+      "plugin": "SquadStats",
+      "enabled": true,
+      "api_key": "YOUR_API_KEY",
+      "debugSuccessMessages": true
+    }
