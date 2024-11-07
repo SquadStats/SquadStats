@@ -1,7 +1,26 @@
-# SquadStats
-The SquadStats plugin to connect to our API
+<div align="center">
+<img src="https://squadstats.nl/media/image/squadstatsnl.png" alt="Logo" width="500"/>
+    
+[![GitHub Release](https://img.shields.io/github/v/release/SquadStats/SquadStats?style=for-the-badge&label=Version&color=green)](https://github.com/SquadStats/SquadStats/releases) 
+[![GitHub contributors](https://img.shields.io/github/contributors-anon/SquadStats/SquadStats?style=for-the-badge&color=blue)](https://github.com/SquadStats/SquadStats/contributors) 
+[![GitHub Repo stars](https://img.shields.io/github/stars/SquadStats/SquadStats?style=for-the-badge&label=Stars&color=purple)](https://github.com/SquadStats/SquadStats/stargazers) 
+[![GitHub watchers](https://img.shields.io/github/watchers/SquadStats/SquadStats?style=for-the-badge&color=brown)](https://github.com/SquadStats/SquadStats/) 
+[![GitHub forks](https://img.shields.io/github/forks/SquadStats/SquadStats?style=for-the-badge&label=Forks&color=olive)](https://github.com/SquadStats/SquadStats/forks) 
+[![GitHub License](https://img.shields.io/github/license/SquadStats/SquadStats?style=for-the-badge&label=License&color=orange)](https://github.com/SquadStats/SquadStats/blob/main/LICENSE) 
 
-[![Version](https://img.shields.io/badge/Version-v0.0.2-green)](https://github.com/SquadStats/SquadStats/)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/SquadStats/SquadStats/main?style=flat-square&label=Commits%20Weekly)](https://github.com/SquadStats/SquadStats/commits/main/) 
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/SquadStats/SquadStats/main?style=flat-square&label=Commits%20Monthly)](https://github.com/SquadStats/SquadStats/commits/main/) 
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/SquadStats/SquadStats/main?style=flat-square&label=Commits%20Yearly)](https://github.com/SquadStats/SquadStats/commits/main/)
+[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/SquadStats/SquadStats/main?style=flat-square&label=Commits%20Total)](https://github.com/SquadStats/SquadStats/commits/main/)
+
+[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/SquadStats/SquadStats?label=Issues&color=red)](https://github.com/SquadStats/SquadStats/issues) 
+[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed/SquadStats/SquadStats?label=Issues&color=green)](https://github.com/SquadStats/SquadStats/issues) 
+[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/SquadStats/SquadStats?label=Pull%20Requests&color=orange)](https://github.com/SquadStats/SquadStats/pulls) 
+[![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr-closed/SquadStats/SquadStats?label=Pull%20Requests&color=green)](https://github.com/SquadStats/SquadStats/pulls) 
+
+##
+
+<div align="left">
 
 ## About
 
@@ -44,3 +63,7 @@ This can help keep individual community data isolated for more specific clan-foc
 - Website: https://squadstats.nl
 - Status: https://status.squadstats.nl
 - Discord: https://squadstats.nl/discord
+- Support
+
+### _Other Squad Projects_
+_There are many other projects that support server admins in managing their squad server and playerstats. For a list of cool projects for [SquadJS](https://github.com/Team-Silver-Sphere/SquadJS) and [Squad](https://www.joinsquad.com/) itself, please refer to ["Other SQUAD Projects"](https://squadstats.nl/other-squad-projects/). SquadStats is not affiliated with these projects. Nor with [Offworld Industries Ltd (OWI)](https://www.offworldindustries.com/). The projects are displayed because we appreciate what these projects mean and do for the Squad community._
