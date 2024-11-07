@@ -9,5 +9,6 @@
       "plugin": "SquadStats",
       "enabled": true,
       "api_key": "YOUR_API_KEY",
-      "debugSuccessMessages": true
+      "debugSuccessMessages": true,
+      "autoUpdate": true
     }
