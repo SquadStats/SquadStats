@@ -51,7 +51,7 @@ This can help keep individual community data isolated for more specific clan-foc
       "autoUpdate": true
     }
 ```
-#### _Explanation of values_
+_**Explanation of values:**_
 - ```plugin```: _The name of the plugin._
 - ```enabled```: _This will enable (true) or disable (false) the plugin._
 - ```api_key```: _Your Private API key_
@@ -63,7 +63,7 @@ This can help keep individual community data isolated for more specific clan-foc
 - Website: https://squadstats.nl
 - Status: https://status.squadstats.nl
 - Discord: https://squadstats.nl/discord
-- Support
+- Support: https://squadstats.nl/support
 
 ### _Other Squad Projects_
 _There are many other projects that support server admins in managing their squad server and playerstats. For a list of cool projects for [SquadJS](https://github.com/Team-Silver-Sphere/SquadJS) and [Squad](https://www.joinsquad.com/) itself, please refer to ["Other SQUAD Projects"](https://squadstats.nl/other-squad-projects/). SquadStats is not affiliated with these projects. Nor with [Offworld Industries Ltd (OWI)](https://www.offworldindustries.com/). The projects are displayed because we appreciate what these projects mean and do for the Squad community._
