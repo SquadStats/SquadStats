@@ -850,11 +850,26 @@ const updateAndCleanup = async (currentVersion) => {
 };
 
 // Save/Load serverstata from/to a file
-const __dirname = fileURLToPath(import.meta.url);
-const configFilePath = path.join(__dirname, '..', 'pluginsData', 'SquadStatsLogger', '.pluginData');
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const configDirPath = path.join(__dirname, 'pluginsData', 'SquadStatsLogger');
+const configFilePath = path.join(configDirPath, '.pluginData');
 function saveServerConfigFile(configUpdates = {}) {
-    let config = loadServerConfigFile();
-    config = {  SquadStats: {Warning: "This file stores critical temporary configuration data. DO NOT DELETE THIS FILE!!"}, ...config, ...configUpdates };
+    if (!fs.existsSync(configDirPath)) {
+        fs.mkdirSync(configDirPath, { recursive: true });
+    }
+    let config = {};
+    if (fs.existsSync(configFilePath)) {
+        const existingData = fs.readFileSync(configFilePath);
+        config = JSON.parse(existingData);
+    }
+    config = {
+        SquadStats: {
+            Warning: "This file stores critical temporary configuration data. DO NOT DELETE THIS FILE!!"
+        },
+        ...config,
+        ...configUpdates
+    };
     fs.writeFileSync(configFilePath, JSON.stringify(config, null, 4));
 }
 
@@ -863,6 +878,7 @@ function loadServerConfigFile() {
         const data = fs.readFileSync(configFilePath);
         return JSON.parse(data);
     }
+
     return {
         match: { id: 1 },
         validated: false,
