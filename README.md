@@ -8,10 +8,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/SquadStats/SquadStats?style=for-the-badge&label=Forks&color=olive)](https://github.com/SquadStats/SquadStats/forks) 
 [![GitHub License](https://img.shields.io/github/license/SquadStats/SquadStats?style=for-the-badge&label=License&color=orange)](https://github.com/SquadStats/SquadStats/blob/main/LICENSE) 
 
-[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/w/SquadStats/SquadStats/main?style=flat-square&label=Commits%20Weekly)](https://github.com/SquadStats/SquadStats/commits/main/) 
-[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/m/SquadStats/SquadStats/main?style=flat-square&label=Commits%20Monthly)](https://github.com/SquadStats/SquadStats/commits/main/) 
-[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/SquadStats/SquadStats/main?style=flat-square&label=Commits%20Yearly)](https://github.com/SquadStats/SquadStats/commits/main/)
-[![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/y/SquadStats/SquadStats/main?style=flat-square&label=Commits%20Total)](https://github.com/SquadStats/SquadStats/commits/main/)
+[![Bot Version](https://img.shields.io/badge/Bot_version-1.8.3-green?style=for-the-badge)](#) [![API Version](https://img.shields.io/badge/API_version-1.1.2-green?style=for-the-badge)](#) [![Controller Version](https://img.shields.io/badge/Controller_version-1.0.0-green?style=for-the-badge)](#)
 
 [![GitHub Issues or Pull Requests](https://img.shields.io/github/issues/SquadStats/SquadStats?label=Issues&color=red)](https://github.com/SquadStats/SquadStats/issues) 
 [![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-closed/SquadStats/SquadStats?label=Issues&color=green)](https://github.com/SquadStats/SquadStats/issues) 
