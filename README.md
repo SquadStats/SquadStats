@@ -18,6 +18,15 @@
 [![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr/SquadStats/SquadStats?label=Pull%20Requests&color=orange)](https://github.com/SquadStats/SquadStats/pulls) 
 [![GitHub Issues or Pull Requests](https://img.shields.io/github/issues-pr-closed/SquadStats/SquadStats?label=Pull%20Requests&color=green)](https://github.com/SquadStats/SquadStats/pulls) 
 
+| 🌍 Language | 🧠 Completion & Badge | 🧑‍💻 Contributor(s) | 📄 File |
+|-------------|------------------------|---------------------|---------|
+| 🌐 English (Base) — `en` | <span style='color:limegreen'>[##########] 100.0% ✅</span> ![en](https://img.shields.io/badge/En-100%25-brightgreen?style=flat&labelColor=555) | SquadStats Team / [@Tobydeteckel](https://github.com/Tobydeteckel) | [`en.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/en.json) |
+| 🇩🇪 German — `de` | <span style='color:gray'>[----------] 1.6%</span> ![de](https://img.shields.io/badge/De-1%25-lightgrey?style=flat&labelColor=555) | _Open for contributors!_ | [`de.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/de.json) |
+| 🇪🇸 Spanish — `es` | <span style='color:gray'>[----------] 0.0%</span> ![es](https://img.shields.io/badge/Es-0%25-lightgrey?style=flat&labelColor=555) | _Open for contributors!_ | [`es.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/es.json) |
+| 🇫🇷 French — `fr` | <span style='color:gray'>[----------] 0.0%</span> ![fr](https://img.shields.io/badge/Fr-0%25-lightgrey?style=flat&labelColor=555) | _Open for contributors!_ | [`fr.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/fr.json) |
+| 🇵🇹 Portuguese — `pt` | <span style='color:gray'>[----------] 0.0%</span> ![pt](https://img.shields.io/badge/Pt-0%25-lightgrey?style=flat&labelColor=555) | _Open for contributors!_ | [`pt.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/pt.json) |
+
+ 💡 Want to help translate? See the [instructions below](#how-to-contribute-translations).
 ##
 
 <div align="left">
@@ -57,6 +66,92 @@ _**Explanation of values:**_
 - ```api_key```: _Your Private API key_
 - ```debugSuccessMessages```: _This will enable (true) or disable (false) the logging of succesfull events in the squadJS console._
 - ```autoUpdate```: _This will enable (true) or disable (false) the automatic updates of the plugin._
+
+## 🌍 Translations — Help Localize SquadStats!
+
+SquadStats supports multiple languages to bring the experience to players around the world. Each translation is stored in a simple, easy-to-edit `.json` file — no coding required!
+
+## 🌐 Supported Languages
+
+Here are the languages currently available in SquadStats, including translation progress, badges, and contributor credits.
+
+| 🌍 Language | 🧠 Completion & Badge | 🧑‍💻 Contributor(s) | 📄 File |
+|-------------|------------------------|---------------------|---------|
+| 🌐 English (Base) — `en` | <span style='color:limegreen'>[##########] 100.0% ✅</span> ![en](https://img.shields.io/badge/En-100%25-brightgreen?style=flat&labelColor=555) | SquadStats Team / [@Tobydeteckel](https://github.com/Tobydeteckel) | [`en.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/en.json) |
+| 🇩🇪 German — `de` | <span style='color:gray'>[----------] 1.6%</span> ![de](https://img.shields.io/badge/De-1%25-lightgrey?style=flat&labelColor=555) | _Open for contributors!_ | [`de.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/de.json) |
+| 🇪🇸 Spanish — `es` | <span style='color:gray'>[----------] 0.0%</span> ![es](https://img.shields.io/badge/Es-0%25-lightgrey?style=flat&labelColor=555) | _Open for contributors!_ | [`es.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/es.json) |
+| 🇫🇷 French — `fr` | <span style='color:gray'>[----------] 0.0%</span> ![fr](https://img.shields.io/badge/Fr-0%25-lightgrey?style=flat&labelColor=555) | _Open for contributors!_ | [`fr.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/fr.json) |
+| 🇵🇹 Portuguese — `pt` | <span style='color:gray'>[----------] 0.0%</span> ![pt](https://img.shields.io/badge/Pt-0%25-lightgrey?style=flat&labelColor=555) | _Open for contributors!_ | [`pt.json`](https://github.com/SquadStats/SquadStatsBotTranslations/blob/beta/locales/pt.json) |
+
+> 💡 Want to help translate? See the [instructions above](#-how-to-contribute-translations).
+
+---
+
+### 🧭 Legend
+- Progress bars are updated regularly 🔄
+- Click contributor names to visit their GitHub profile
+- Want your name listed? [Contribute a translation!](https://github.com/SquadStats/SquadStatsBotTranslations/pulls)
+
+### 🧩 How Translations Work
+
+All language files are located in the [`locales/`](https://github.com/SquadStats/SquadStatsBotTranslations/tree/beta/locales) folder. Each file (e.g. `fr.json`, `de.json`) follows this format:
+
+```json
+{
+  "category": {
+    "1": {
+      "default": "English text here",
+      "translated": "Translated text here"
+    }
+  }
+}
+```
+
+- `default`: the English source string (do **not** edit this)
+- `translated`: your translation goes here ✍️
+
+---
+
+## How to Contribute Translations
+
+Whether you're translating a single string or an entire language — thank you! There are two easy ways to contribute:
+
+### ✅ Option 1: Use GitHub’s Web Editor (No Fork Needed)
+
+1. Go to the [`beta` branch](https://github.com/SquadStats/SquadStatsBotTranslations/tree/beta)
+2. Open the [`locales/`](https://github.com/SquadStats/SquadStatsBotTranslations/tree/beta/locales) folder
+3. Click the language file you want to update (e.g. `fr.json`)
+4. Click the ✏️ **Edit this file** button
+5. Only change the `"translated"` values
+6. Scroll down, write a short commit message like `Update French translation`
+7. Choose **"Create a new branch for this commit and start a pull request"**
+8. Click **"Propose changes"**
+
+That’s it! We’ll review and merge your translation 🚀
+
+---
+
+### 🛠️ Option 2: Fork and Edit (Advanced)
+
+1. Fork this repository
+2. Edit or translate files in the `locales/` folder
+3. Push your changes and open a Pull Request to the `beta` branch
+
+---
+
+## 🌐 Want to Add a New Language?
+
+We’d love to support it!
+
+- Open an [issue](https://github.com/SquadStats/SquadStatsBotTranslations/issues)
+- Or contact us via Discord
+- We’ll generate a clean translation file for you to start
+
+---
+
+🎖️ Contributors will be credited in the README and changelog.  
+📢 Let’s bring SquadStats to more people — one language at a time!
+
 
 
 ## Links
